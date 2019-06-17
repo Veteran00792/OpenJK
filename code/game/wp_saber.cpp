@@ -219,7 +219,7 @@ float forceJumpStrength[NUM_FORCE_POWER_LEVELS] =
 	JUMP_VELOCITY,//normal jump
 	420,
 	590,
-	840
+	1200
 };
 
 float forceJumpHeight[NUM_FORCE_POWER_LEVELS] =
@@ -227,7 +227,7 @@ float forceJumpHeight[NUM_FORCE_POWER_LEVELS] =
 	32,//normal jump (+stepheight+crouchdiff = 66)
 	96,//(+stepheight+crouchdiff = 130)
 	192,//(+stepheight+crouchdiff = 226)
-	384//(+stepheight+crouchdiff = 418)
+	1200//(+stepheight+crouchdiff = 1200)
 };
 
 float forceJumpHeightMax[NUM_FORCE_POWER_LEVELS] =
@@ -235,7 +235,7 @@ float forceJumpHeightMax[NUM_FORCE_POWER_LEVELS] =
 	66,//normal jump (32+stepheight(18)+crouchdiff(24) = 74)
 	130,//(96+stepheight(18)+crouchdiff(24) = 138)
 	226,//(192+stepheight(18)+crouchdiff(24) = 234)
-	418//(384+stepheight(18)+crouchdiff(24) = 426)
+	1200//(384+stepheight(18)+crouchdiff(24) = 1200)
 };
 
 float forcePushPullRadius[NUM_FORCE_POWER_LEVELS] =
@@ -243,7 +243,7 @@ float forcePushPullRadius[NUM_FORCE_POWER_LEVELS] =
 	0,//none
 	384,//256,
 	448,//384,
-	512
+	1200
 };
 
 float forcePushCone[NUM_FORCE_POWER_LEVELS] =
@@ -267,7 +267,7 @@ float forceSpeedValue[NUM_FORCE_POWER_LEVELS] =
 	1.0f,//none
 	0.75f,
 	0.5f,
-	0.25f
+	0.15f
 };
 
 float forceSpeedRangeMod[NUM_FORCE_POWER_LEVELS] =
@@ -275,7 +275,7 @@ float forceSpeedRangeMod[NUM_FORCE_POWER_LEVELS] =
 	0.0f,//none
 	30.0f,
 	45.0f,
-	60.0f
+	70.0f
 };
 
 float forceSpeedFOVMod[NUM_FORCE_POWER_LEVELS] =
@@ -308,7 +308,7 @@ int saberThrowDist[NUM_FORCE_POWER_LEVELS] =
 	0,//none
 	256,
 	400,
-	400
+	800
 };
 
 //NOTE: keep in synch with table above!!!
